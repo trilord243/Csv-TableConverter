@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.css" />
     <title>Titulo</title>
   </head>
   <body>
-    <div class="Contenedor">
-      <table id="csv"></table>
+    <div class="nav-container">
+      <img src="./img/AVANTI.svg" alt="Logo" srcset="" class="img-container" />
+      <img src="./img/clipart365828.png" alt="" srcset="" class="burger-menu" />
     </div>
-    <input type="text" placeholder="Entea tu cosa " name="" id="" />
+    <div class="Contenedor">
+      <table class="styled-table" id="csv"></table>
+    </div>
+    <h1>SISTEMA DE INVENTARIO AVANTI</h1>
+    <div class="subir-archivo">
+      <img src="./img/" alt="" />
+    </div>
+
     <input placeholder="Sube" type="file" id="csvFileInput" />
     <script src="./library/papaparse.min.js"></script>
     <script type="module" src="./src/main.js"></script>
